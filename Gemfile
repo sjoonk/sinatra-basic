@@ -8,3 +8,8 @@ gem "thin"
 gem "json"
 gem "slim"
 
+group :test do
+  gem "minitest"
+  gem "turn"
+end
+
