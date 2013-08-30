@@ -1,6 +1,6 @@
 // app.js
 
 $(document).ready(function() {
-  alert('bingo!');
+  // alert('bingo!');
 });
 
