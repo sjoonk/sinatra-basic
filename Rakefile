@@ -8,13 +8,13 @@ end
 
 namespace :assets do
 
-  desc "precompile assets"
+  desc "Precompile assets"
   task :precompile do
     settings.sprockets['application.js'].write_to('public/assets/application.js')    
     settings.sprockets['application.css'].write_to('public/assets/application.css')
   end
 
-  desc "clean assests"
+  desc "Clean all assests"
   task :clean do
     raise "Not implemented yet"
   end
