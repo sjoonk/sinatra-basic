@@ -1,5 +1,10 @@
 require 'rubygems'
 require 'bundler/setup'
 require './app'
-run Sinatra::Application
+
+map '/assets' do
+  run settings.sprockets
+end
+
+run Sinatra::Application 
 
