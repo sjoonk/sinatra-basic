@@ -16,7 +16,3 @@ A boilerplate for basic Sinatra project
 
 - [Slim](http://slim-lang.com/) A lightweight templating engine
 - [Thin](http://code.macournoyer.com/thin/) A fast and very simple Ruby web server
-
-## License
-
-What??
