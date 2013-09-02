@@ -7,10 +7,14 @@ gem "thin"
 gem "json"
 gem "slim"
 
-# assets mgt /w sprockets
-gem "sprockets"
+# asset management
+gem "jammit"
 gem "sass"
 gem "coffee-script"
+gem "sinatra-static-assets"
+
+# guards
+gem "guard-jammit"
 
 group :test do
   gem "minitest"

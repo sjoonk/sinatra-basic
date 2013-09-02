@@ -19,10 +19,10 @@ html
     meta name="viewport" content="width=device-width, initial-scale=1.0"
     link href="style.css" rel="stylesheet" type="text/css"
   body
-    == yield
+    ==yield
 
     script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
-    script src="/assets/application.js"
+    ==javascript_script_tag "assets/application.js" 
     javascript:
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
